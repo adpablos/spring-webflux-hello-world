@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "c8342cfa-ad89-4780-89b0-f39bd5e7ed03",
+		"name": "Reactividad",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "296398"
+	},
+	"item": [
+		{
+			"name": "Using react",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Hello",
+						"value": "A ver",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Linking operations",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Hello",
+						"value": "A ver",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/test2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"test2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
